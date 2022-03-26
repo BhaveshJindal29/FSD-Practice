@@ -8,14 +8,12 @@ for (let i = 0; i < numbers.length; ++i) {
   if (numbers[i] > maximum) {
     maximum = numbers[i];
   }
+  if (numbers[i] < minimum) {
+    minimum = numbers[i];
+}
 
 }
 
-  for (let i = 0; i < numbers.length; ++i) {
-    if (numbers[i] < minimum) {
-        minimum = numbers[i];
-    }
-}
 
             
 console.log(minimum);
